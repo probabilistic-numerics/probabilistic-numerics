@@ -9,7 +9,7 @@ from setuptools import setup
 # `pyproject.toml`, once optional dependencies defined there can reference one another
 extras_require = dict()
 extras_require["jax"] = [
-    "jax[cpu]<0.4.20; platform_system!='Windows'",
+    "jax[cpu]<0.4.27; platform_system!='Windows'",
 ]
 extras_require["zoo"] = [
     "tqdm>=4.0",
