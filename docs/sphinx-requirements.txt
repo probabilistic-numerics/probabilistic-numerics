@@ -1,5 +1,5 @@
 # Sphinx builds the documentation
-sphinx>=3.0,<7.3
+sphinx>=3.0,<7.4
 
 # Sphinx dependencies
 Pygments>=2.6.1
